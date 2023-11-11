@@ -1,0 +1,72 @@
+body {
+    background-image: url("../image/dealership.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    font-family: 'Exo 2', sans-serif;
+}
+html{
+    height:100%;
+}
+#tengah{
+    width:100%;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    text-align:center;
+}
+#tombol{
+    width: 150px;
+}
+#form{
+    width:100%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.table-container {
+    height: 580px;
+}
+table {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: 100%;
+}
+table thead {
+    flex: 0 0 auto;
+    width: calc(100% - 0.9em);
+}
+table tbody {
+    overflow-y: scroll;
+}
+table tbody tr {
+    width: 100%;
+}
+table thead, table tbody tr {
+    display: table;
+    table-layout: fixed;
+}
+#create{
+    padding-left:9px;
+    padding-bottom:10px;
+}
+#details{
+    width:100%;
+}
+p{
+    font-size:xx-large;
+}
+#view{
+    width:50%;
+    height:50%;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    text-align:center;
+    left: 25%;
+    padding: 90px 0;
+}
+p#teamview{
+    font-size:medium;
+}
